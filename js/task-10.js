@@ -26,7 +26,6 @@ function createBoxes(amount) {
     newBox.style.backgroundColor = getRandomHexColor()
     elementsToPush.push(newBox)
   }
-  console.log(elementsToPush)
   return elementsToPush
 }
 

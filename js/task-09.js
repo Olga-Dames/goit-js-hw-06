@@ -13,4 +13,3 @@ function onClickChangeColor() {
   bodyRef.style.backgroundColor = getRandomHexColor()
   colorValueRef.textContent = getRandomHexColor()
 }
-console.log(getRandomHexColor())

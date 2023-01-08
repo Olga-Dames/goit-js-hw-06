@@ -22,7 +22,6 @@ const createGallery = images.map(image => {
 
 
 galleryRef.insertAdjacentHTML('afterbegin', createGallery)
-console.log(galleryRef)
 
 galleryRef.style.display = 'flex';
 galleryRef.style.gap = '30px';
